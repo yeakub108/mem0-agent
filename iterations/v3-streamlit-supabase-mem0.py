@@ -2,7 +2,10 @@ import os
 import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
-from mem0 import Memory
+import sys
+# Add the parent directory to sys.path to make local imports work
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from iterations.mem0 import Memory
 import supabase
 from supabase.client import Client, ClientOptions
 import uuid
