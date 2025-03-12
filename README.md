@@ -60,7 +60,7 @@ The `studio-integration-version` folder contains the code used to integrate this
 
 4. **Run the application**:
    ```bash
-   streamlit run iterations/v3-streamlit-supabase-mem0.py
+   python -m streamlit run iterations/v3-streamlit-supabase-mem0.py
    ```
 
 ## Supabase Setup
