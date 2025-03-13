@@ -51,3 +51,9 @@ class Memory:
         
         self.memories[user_id].append(memory_entry)
         self._save_memories()
+        
+    def clear(self, user_id: str = "default_user"):
+        """Clear all memories for a specific user"""
+        if user_id in self.memories:
+            self.memories[user_id] = []
+            self._save_memories()

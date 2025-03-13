@@ -292,23 +292,5 @@
       ]
     }
   ],
-  "106772fa-4b22-4ef7-8f0c-4204a70f2ce7": [
-    {
-      "timestamp": "2025-03-13T12:24:47.197631",
-      "messages": [
-        {
-          "role": "system",
-          "content": "You are a helpful AI assistant with memory. Answer the question based on the query and user's memories.\nUser Memories:\n"
-        },
-        {
-          "role": "user",
-          "content": "do you know unit test in jest"
-        },
-        {
-          "role": "assistant",
-          "content": "Yes, I'm familiar with unit testing in Jest. Jest is a popular testing framework for JavaScript that allows you to write tests for your code to ensure it behaves as expected. It provides features like mocking, assertions, and code coverage. \n\nIf you have specific questions about setting up tests, writing test cases, or using particular features in Jest, feel free to ask!"
-        }
-      ]
-    }
-  ]
+  "106772fa-4b22-4ef7-8f0c-4204a70f2ce7": []
 }
